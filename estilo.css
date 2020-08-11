@@ -1,0 +1,423 @@
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+/*---header---*/
+.flex-container{
+    background-color:rgb(250, 241, 241) ;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 50px;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    height: 60px;
+}
+.menu-nav{
+    display: flex;
+}
+.menu-nav a{
+    text-decoration: none; 
+    padding: 20px;
+    color: rgb(175, 76, 76);
+    font-size: 18px;
+    text-align: center;
+}
+.menu-nav a:hover{
+  color:teal;
+}
+.flex-container img{
+    width: 100px
+}
+/*CAPA*/
+.capa{
+    background-image: url(img/capa.png);
+    min-height: 100vh;
+    background-size: cover;
+    
+    color:rgb(24, 20, 20);
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+.capa h1{
+    max-width: 1000px;
+    font-size: 50px;
+    margin-bottom:0;
+
+    text-shadow: 1px 1px blue;
+}
+.capa h2{
+    max-width: 900px;
+    font-size: 30px;
+    margin-top: 0;
+
+    text-shadow: 1px 0px rgb(137, 137, 212);
+}
+.capa .botao{
+    border: 1px solid none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(175, 76, 76); 
+}
+.botao:hover{
+    color: teal;
+}
+/*--projeto--*/
+.projeto{
+    display:flex;
+    width: 100%;
+    margin:0 auto;
+    padding: 30px 0px 20px 0px;
+    
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgb(240, 240, 240)  ;
+
+    flex-wrap: wrap; /*responsividade*/
+}
+.video{
+    display: flex;
+    flex:50%;
+    padding: 0px 50px;
+
+
+}
+.video iframe{
+    width:100%;
+}
+.sobre{
+    display: flex;
+    flex:50%;
+    padding: 0px 50px;
+    margin-top: 20;
+    background-color: rgb(240, 240, 240);
+
+
+}
+.sobre h3{
+    font-size: 30px;
+    text-align: center;
+}
+.sobre{
+    display: flex;
+    text-align: justify;
+
+    flex-wrap: wrap; /*responsividade*/
+}
+.video h3{
+    font-size: 30px;
+    text-align: center;
+}
+/*FIM DO PROJETO*/
+
+/*desigualdades*/
+.t-desigualdade{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 240)  ;
+
+}
+
+.desigualdades{
+    display:flex;
+    width: 100%;
+    margin:0 auto;
+    padding: 30px 0px 20px 0px;
+    
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgb(240, 240, 240)  ;
+
+    flex-wrap: wrap; /*responsividade*/
+}
+.video-d{
+    display: flex;
+    flex:50%;
+    padding: 0px 50px;
+}
+.sobre-d img{
+    width: 100%;
+    display: flex;
+    flex:50%;
+    padding: 0px 50px;
+    margin-top: 20px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+
+/*fim desigualdade*/
+/*feminismo*/
+.t-feminismo{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    margin: auto auto;
+    background-color: rgb(240, 240, 240) ;
+}
+._feminismo{
+    display:flex;
+    widows: 100%;
+    margin:0 auto;
+    padding: 30px 0px 20px 0px;
+    background-color:rgb(240, 240, 240);
+
+    justify-content: center;
+    align-items: center;
+   
+    flex-wrap:wrap ;/*responsividade*/
+}
+.video-f{
+    display: flex;
+    flex:50%;
+    padding: 0px 50px;
+    width: 100%;
+    align-items: center;
+}
+.sobre-f img{
+    display: flex;
+    width: 100%;
+    flex:50%;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+.feminismo{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px 20px 0px;
+   
+    background-color: rgb(240, 240, 240) ;
+
+    flex-wrap: wrap; /*responsividade*/
+}
+.card{
+    flex:25%;
+    text-align: center;
+    padding: 0 50px 0 50px;
+
+}
+
+.img-feminismo{
+     height: 85px;
+     width: 85px;
+     text-align: center;
+     margin: 0 auto;
+     
+     border-radius: 50%;
+}
+.img-feminismo img{
+    max-width: 50%;
+    margin: 15px;
+    
+}
+.feminismo .botao{
+    border: 1px solid none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(175, 76, 76);
+}
+.botao:hover{
+    color: teal;
+}
+/*fim feminismo*/
+
+/*caminhos*/
+.t-caminhos{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 240);
+}
+.caminhos{
+    display: flex;
+    max-width: 100%;
+    background-color:rgb(240, 240, 240);
+    padding: 30px 0 20px 0;
+    max-width: 100%;
+}
+.caminhos h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.capac{
+    background-color: rgb(240, 240, 240);
+}
+
+.capac img{
+display: flex;
+max-width: 100%;
+margin: auto auto;
+padding: 30px 0px 20px 0px;
+text-align: center;
+background-color: rgb(240, 240, 240) ;
+
+}
+.caminhos h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.s-caminhos{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(240, 240, 240);
+    font-weight: bold;
+    margin: auto;
+}
+
+.conteiner-cards{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+
+    flex-wrap: wrap; /*responsividade*/
+}
+}
+.card-caminhos{
+    max-width: 100%;
+    text-align: center;
+    margin: 10px;
+    height: 300px;
+  
+
+    flex: 30%;
+}
+.card-c{
+    max-width: 100%;
+    text-align: center;
+    margin: 10px;
+    height: 300px;
+
+  
+
+    flex: 30%;
+}
+
+/*fim caminho*/
+
+/*sobre mim*/
+.sobre-mim{
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px 0px 20px 0px;
+
+    background-color: rgb(240, 240, 240);
+    flex-wrap: wrap;
+}
+
+.coluna{
+    flex: 50%;
+    padding: 0px 40px;
+}
+.coluna img{
+    max-width: 100%;
+}
+.coluna h1{
+    text-align: center;
+    font-size: 30px;
+}
+.coluna h4{
+    text-align: center;
+}
+.coluna p{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/*fim sobre mim*/
+/*rodapé*/ 
+footer{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px 50px 0px;
+    background-color: #5f7881;
+    color: white;
+
+    flex-wrap: wrap;
+}
+/*fim do rodapé*/
+
+/*responsividade*/
+
+@media (max-width:760px) {
+    /*header responsivo*/
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        position: fixed;
+    }
+    .menu-nav{
+       display: none;
+    }
+    /*capa responsivo*/
+    .capa h1{
+        font-size: 25px;
+        text-shadow: 0.5px 0.5px blue;
+    }
+    .capa h2{
+        font-size: 15px;
+    }
+    .capa .botao{
+        font-size: 15px;
+    }
+    /*projeto responsivo*/
+    .projeto{
+        flex-direction: column;
+
+    }
+    .video{
+        flex: 1;
+        padding: 20px;
+        width: 100%;  
+    }
+    .sobre{
+        padding: 20px;
+    }
+    /*feminismo responsivo*/
+    .feminismo{
+        flex-direction: column;
+    }
+    .video-f{
+        margin-top: 30px;
+    }
+    /*caminhos responsivo*/
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    /*sobre mim responsivo*/
+    .sobre-mim{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+
+}
